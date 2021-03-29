@@ -3,11 +3,151 @@
   <head>
     {{> partials/head title="Aircrft | Internet Business Marketplace"}}
   </head>
-  <body>
+  <body class="pt-10">
 
     <!-- MODALS -->
     {{> partials/modals}}
 
+    <!-- NAVBAR -->
+    {{> partials/navbar classList="navbar-light fixed-top bg-white border-bottom" container="container-fluid" button="primary"}}
+
+    <!-- WELCOME -->
+    <section class="pt-8 pb-11 pt-md-9 pb-md-12 py-lg-14 bg-light bg-between" style="background-image: url(assets/img/illustrations/illustration-6-cropped.png), url(assets/img/illustrations/illustration-4-cropped.png);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-7 text-center" data-aos="fade-up">
+
+            <!-- Image (mobile) -->
+            <img src="assets/img/illustrations/illustration-8.png" alt="..." class="img-fluid mb-6 d-lg-none">
+
+            <!-- Heading -->
+            <h1 class="display-2 fw-bold">
+              Startup supply store <br>
+            </h1>
+
+            <!-- Text -->
+            <p class="fs-lg text-muted mb-6 mb-md-8">
+              Positive impact tech solutions to empower, uplift and make your daily life a little bit more wonderful.
+            </p>
+
+            <!-- Button -->
+            <a href="#!" class="btn btn-primary me-1 lift">
+              Go Shopping  <i class="fe fe-arrow-right ms-3"></i>
+            </a>
+            <a href="#!" class="btn btn-primary-soft lift">
+              Learn more
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+        {{> curves/curve-1}}
+      </div>
+    </div>
+
+    <!-- PRICING -->
+    <section class="mt-n8">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="50">
+
+            <!-- Card -->
+            <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg">
+              <div class="card-body">
+
+                <!-- Badge -->
+                <span class="badge rounded-pill bg-primary-desat badge-float badge-float-outside">
+                  $29/mo
+                </span>
+
+                <!-- Heading -->
+                <h4 class="fw-bold">
+                  Blog-in-a-Box
+                </h4>
+
+                <!-- Text -->
+                <p class="text-muted">
+                  A complete blogging system for startups. Affordable, scalable and powerful. The perfect solution to build an engaged community, keep users up-to-date and in the loop.
+                </p>
+
+                <!-- Link -->
+                <a href="#!" class="fs-sm fw-bold text-decoration-none">
+                  Learn more <i class="fe fe-arrow-right ms-3"></i>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
+
+            <!-- Card -->
+            <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg">
+              <div class="card-body">
+
+                <!-- Badge -->
+                <span class="badge rounded-pill bg-primary-desat badge-float badge-float-outside">
+                  $49/mo
+                </span>
+
+                <!-- Heading -->
+                <h4 class="fw-bold">
+                  Podcast-in-a-Box
+                </h4>
+
+                <!-- Text -->
+                <p class="text-muted">
+                  A mid-sized solution for businesses undergoing rapid user growth.
+                </p>
+
+                <!-- Link -->
+                <a href="#!" class="fs-sm fw-bold text-decoration-none">
+                  Start a 15-day trial <i class="fe fe-arrow-right ms-3"></i>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="150">
+
+            <!-- Card -->
+            <div class="card shadow-light-lg lift lift-lg">
+              <div class="card-body">
+
+                <!-- Badge -->
+                <span class="badge rounded-pill bg-primary-desat badge-float badge-float-outside">
+                  $79/mo
+                </span>
+
+                <!-- Heading -->
+                <h4 class="fw-bold">
+                  Startup-in-a-Box
+                </h4>
+
+                <!-- Text -->
+                <p class="text-muted">
+                  All the core essentials to launch, run, and scale your online business.
+                </p>
+
+                <!-- Link -->
+                <a href="#!" class="fs-sm fw-bold text-decoration-none">
+                  Sign up now <i class="fe fe-arrow-right ms-3"></i>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+    
     <!-- WELCOME -->
     <section class="mt-n11 pt-12 pb-8 pt-md-14 pb-md-11 bg-black bg-pattern-2">
       <div class="container">
@@ -91,7 +231,7 @@
           </div>
           <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
 
-            <!-- Brand 
+            <!-- Brand -->
             <div class="img-fluid text-white mb-2 mb-md-0 svg-shim">
               {{> logotype/airbnb}}
             </div> 
@@ -99,7 +239,7 @@
           </div>
           <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
 
-            <!-- Brand 
+            <!-- Brand -->
             <div class="img-fluid text-white mb-2 mb-md-0 svg-shim">
               {{> logotype/coinbase}}
             </div>
@@ -107,7 +247,7 @@
           </div> 
           <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
 
-            <!-- Brand 
+            <!-- Brand -->
             <div class="img-fluid text-white mb-2 mb-md-0 svg-shim">
               {{> logotype/dribbble}}
             </div>
@@ -115,7 +255,7 @@
           </div>
           <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
 
-            <!-- Brand 
+            <!-- Brand -->
             <div class="img-fluid text-white mb-2 mb-md-0 svg-shim">
               {{> logotype/instagram}}
             </div>
@@ -123,7 +263,7 @@
           </div>
           <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
 
-            <!-- Brand 
+            <!-- Brand -->
             <div class="img-fluid text-white mb-2 mb-md-0 svg-shim">
               {{> logotype/netflix}}
             </div>
@@ -131,10 +271,10 @@
           </div>
           <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
 
-            <!-- Brand 
+            <!-- Brand -->
             <div class="img-fluid text-white mb-2 mb-md-0 svg-shim">
               {{> logotype/pinterest}}
-            </div> -->
+            </div> 
 
           </div>
         </div> <!-- / .row -->
